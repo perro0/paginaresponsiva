@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+.header {
+  background-color: #a2eebb;
+  color: #000000;
+  padding: 15px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #e1fdda;
+  color: #c93333;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.menu li:hover {
+  background-color: #6fb641;
+}
+
+.aside {
+  background-color: #96f56a;
+  padding: 15px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.footer {
+  background-color: #a2eebb;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <center><h1>Aprendamos a ser ecologicamente correctos</h1></center>
+</div>
+
+<div class="row">
+  <div class="col-3 col-s-3 menu">
+    <ul>
+      <li><a href="Verduras.html">Conoce mas sobre las verduras y como sembrarlas</a></li>
+      <li><a href="Frutas.html">Conoce mas de las frutas y como aprovecharlas</a></li>
+      <li><a href="Leguminosas.html">Conoce mas sobre las leguminosas</a></li>
+      <li><a href="Formulario.php">Quieres saber tu huella ecologica da click aqui</a></li>
+      <li><a href="index.html">Pagina Principal</a></li>      
+      <li><a href="EvidenciaFotografica.html">Evidencia fotografica</a></li>
+    </ul>
+  </div>
+
+  <div class="col-6 col-s-9">
+    <h1>Cuidemos los recursos:</h1>
+    <p></p><br>
+    <center><h1>La produccion de verduras</h1>
+    <h4>Aqui un video que describe el proceso</h4><br>
+    <video src="Verduras.mp4" controls="" alt="500" width="500"></video>
+    </center><br><br><br><br>
+
+    <center><h1>El desperdicio masivo de frutas</h1>
+    <h4>En este video explica como los estandares de perfeccion alteran a las frutas, y el masivo desperdicio a causa de ello </h4><br>
+    <video src="frutas.mp4" controls="" alt="500" width="500"></video>
+     </center><br><br><br><br>
+
+    <center><h1>La produccion de las leguminosas</h1>
+    <h4>Aqui un video que describe el proceso</h4><br>
+    <video src="leguminosas.mp4" controls="" alt="500" width="500"></video>
+    </center><br><br><br><br>
+     
+        
+  </div>
+
+  <div class="col-3 col-s-12">
+    <div class="aside">
+      <h2>Ventajas de sembrar arboles</h2>
+      <li>
+      <p>Consume contaminantes y nos devuelven oxigeno</p>
+      <p>Ayudan a combatir el cambio climatico.</p>
+      <p>Captan el agua de las lluvias y la filtran</p>
+      <p>Son fuente de alimento para muchos animales</p>
+      <p>Evita la perdida del suelo</p>
+      <p>Reducen la velocidad del viento</p>
+      <p>Disminuyen el ruido</p>
+      <p>Son hogar de seres vivos</p>
+      <p>Embellecen el paisaje urbano</p>
+      <p>Con la suma de todos los beneficios nos da una seensacion de bienestar</p>
+      </li><br>
+      
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <p>Elaboro: Vicente Alarcon Dominguez</p>
+</div>
+
+</body>
+</html>
+
